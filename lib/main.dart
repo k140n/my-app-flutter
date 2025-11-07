@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:may_dice_app/DashboardScreen.dart';
 import 'package:may_dice_app/DiceScreen.dart';
 
 void main(){
@@ -13,7 +14,7 @@ class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Dicescreen(),
+      home: Dashboardscreen(),
     );
   }
 }
